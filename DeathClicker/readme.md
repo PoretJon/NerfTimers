@@ -17,5 +17,7 @@ The LCD Screen has its VCC wired to VBUS, the SCL pin wired to GP9, and the SDA 
 
 ## Libraries Used/Credits
 This program uses Dean Halperts CircuityPython/LCD library.
+
 https://github.com/dhalbert/CircuitPython_LCD
+
 To use it, place the LCD folder on the root of your pi pico.
