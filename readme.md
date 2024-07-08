@@ -1,6 +1,6 @@
 # NerfTimers
 
-### what is this?
+### What is this?
 NerfTimers is a repo I've made to document/share the various timers/gameplay objectives I've created for RIT's Foam Blaster Club. I will share here not only development models, but fully completed, 3D printable enclosures and code for my timers. Each timer will have its own readme including a BOM, any libraries used, and anything else thats needed for that specific timer.
 
 ### Hardware/Basic Requirements
