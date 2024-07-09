@@ -7,7 +7,7 @@ DeathClicker is exactly what it sounds like. It counts how many "deaths" or tags
 To make this, you will need: 
 - 1x Pi Pico (link in root of this repo)
 - 1x Button of choice (I used 60mm Arcade Buttons with the LEDS they came with): https://www.amazon.com/dp/B01M7PNCO9
-- 1x I2C LCD Screen (https://www.amazon.com/dp/B0B76Z83Y4?)
+- 1x I2C LCD Screen (https://www.amazon.com/dp/B0B76Z83Y4)
 
 ## Wiring Guide/Pinout
 ### Clicker Button and LED
