@@ -9,6 +9,8 @@ To make this, you will need:
 - 1x Button of choice (I used 60mm Arcade Buttons with the LEDS they came with): https://www.amazon.com/dp/B01M7PNCO9
 - 1x I2C LCD Screen (https://www.amazon.com/dp/B0B76Z83Y4)
 - 1x Low Profile Mechanical Switch (I used Gateron low profile yellows, but any low profile keyswitch will suffice): https://www.amazon.com/dp/B0CNGJ858B/
+- 8x M3 Brass threaded inserts/"Heatsets": https://www.amazon.com/dp/B0CXXS3LHD
+- Roughly 550 grams of your 3D Printer filament of your choice
 
 ## Wiring Guide/Pinout
 ### Buttons and LED
