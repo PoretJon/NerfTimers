@@ -8,10 +8,12 @@ To make this, you will need:
 - 1x Pi Pico (link in root of this repo)
 - 1x Button of choice (I used 60mm Arcade Buttons with the LEDS they came with): https://www.amazon.com/dp/B01M7PNCO9
 - 1x I2C LCD Screen (https://www.amazon.com/dp/B0B76Z83Y4)
+- 1x Low Profile Mechanical Switch (I used Gateron low profile yellows, but any low profile keyswitch will suffice): https://www.amazon.com/dp/B0CNGJ858B/
 
 ## Wiring Guide/Pinout
-### Clicker Button and LED
+### Buttons and LED
 The clicker button is wired to GP0, and the LED is wired to GP13.
+The reset button is wired to GP19.
 ### LCD Screen
 The LCD Screen has its VCC wired to VBUS, the SCL pin wired to GP9, and the SDA pin wired to GP8.
 
