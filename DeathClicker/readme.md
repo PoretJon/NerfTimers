@@ -25,3 +25,9 @@ This program uses Dean Halperts CircuityPython/LCD library.
 https://github.com/dhalbert/CircuitPython_LCD
 
 To use it, place the LCD folder on the root of your pi pico.
+
+## Future Plans
+### Modeling
+Currently, I plan to create new versions of the box, embossed with RIT FBC's logo.
+### Code
+I plan to rewrite the code for this in C, so it can be compiled and easily flashed onto the pi pico.
