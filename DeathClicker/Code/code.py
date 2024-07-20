@@ -6,6 +6,7 @@ def main():
     # game logic
     numDeaths = 0
     clicked = False
+    resetClicked = False
     
     # pins for button and LED and setup
     clickerButton = digitalio.DigitalInOut(board.GP0)
@@ -13,6 +14,9 @@ def main():
     clickerButton.pull = digitalio.Pull.UP
     led = digitalio.DigitalInOut(board.GP13)
     led.direction = digitalio.Direction.OUTPUT
+    resetButton = digitalio.DigitalInOut(board.GP19)
+    resetButton.direction = digitalio.Direction.INPUT
+    resetButton.pull = digitalio.Pull.UP
     
     # LCD Screen pins and setup
     i2c_scl = board.GP9
@@ -26,7 +30,7 @@ def main():
     lcd = LCD(interface, num_rows=lcd_rows, num_cols=lcd_cols)
     lcd.set_cursor_mode(CursorMode.HIDE)
     lcd.clear()
-    lcd.print(f"Deaths:\n{numDeaths}")
+    lcd.print(f'Death count:\n{numDeaths}')
     
     
     while True:
@@ -37,15 +41,23 @@ def main():
         else:
             if clicked == False:
                 numDeaths += 1
-                print (f'deaths: {numDeaths}')
+                print (f'Death count:\n{numDeaths}')
                 lcd.clear()
-                lcd.print(f"Deaths:\n{numDeaths}")
+                lcd.print(f'Death count:\n{numDeaths}')
                 clicked = True
             #print ('button pressed')
             led.value = True
+        
+        if not resetButton.value:
+            if not resetClicked:
+                resetClicked = True
+                numDeaths = 0
+                lcd.clear()
+                lcd.print(f'Death count:\n{numDeaths}')
+        else:
+            resetClicked = False
 
         time.sleep(0.01)
             
 
-main()
-        
+main()      
