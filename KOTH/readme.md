@@ -1,0 +1,15 @@
+# KOTH
+
+## Overview
+KOTH stands for King Of The Hill. The objective of this game is to "control" an objective for a period of time before your opponents can do the same. 
+
+##BOM
+To Make this, you will need:
+
+- 1x Pi Pico (Link in readme in root of this repo)
+- 2x Button of Choice (I used the same 60mm arcade buttons from DeathClicker and the LEDS they came with): https://www.amazon.com/dp/B01M7PNCO9
+- 1x I2C screen: https://www.amazon.com/dp/B0B76Z83Y4
+- 4x Low Profile Mechanical Switches: https://www.amazon.com/dp/B0CNGJ858B/
+- 8x M3 Brass Threaded "Heatset" inserts: https://www.amazon.com/dp/B0CXXS3LHD
+- 8x M3 Socket Cap Screws: https://www.amazon.com/dp/B083SGJ7BD/
+- Roughly 550 Grams of 3D printer filament of your choice
