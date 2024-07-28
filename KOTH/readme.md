@@ -17,12 +17,21 @@ To Make this, you will need:
 ## Wiring Guide
 
 Red Button: GP21
+
 Blue Button: GP22
+
 SCL: GP9
+
 SDA: GP8
+
 Mode: GP18
+
 Time Up: GP15
+
 Time Down: GP13
+
 Red LED: GP28
+
 Blue LED: GP27
+
 Reset Button: GP16
