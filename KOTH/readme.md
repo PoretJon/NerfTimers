@@ -3,7 +3,7 @@
 ## Overview
 KOTH stands for King Of The Hill. The objective of this game is to "control" an objective for a period of time before your opponents can do the same. 
 
-##BOM
+## BOM
 To Make this, you will need:
 
 - 1x Pi Pico (Link in readme in root of this repo)
