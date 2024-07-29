@@ -13,3 +13,25 @@ To Make this, you will need:
 - 8x M3 Brass Threaded "Heatset" inserts: https://www.amazon.com/dp/B0CXXS3LHD
 - 8x M3 Socket Cap Screws: https://www.amazon.com/dp/B083SGJ7BD/
 - Roughly 550 Grams of 3D printer filament of your choice
+
+## Wiring Guide
+
+Red Button: GP21
+
+Blue Button: GP22
+
+SCL: GP9
+
+SDA: GP8
+
+Mode: GP18
+
+Time Up: GP15
+
+Time Down: GP13
+
+Red LED: GP28
+
+Blue LED: GP27
+
+Reset Button: GP16
