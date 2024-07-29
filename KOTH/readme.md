@@ -35,3 +35,11 @@ Red LED: GP28
 Blue LED: GP27
 
 Reset Button: GP16
+
+## Libraries Used/Credits
+
+This program uses Dean Halperts CircuityPython/LCD library.
+
+https://github.com/dhalbert/CircuitPython_LCD
+
+To use it, place the LCD folder on the root of your pi pico.
