@@ -77,11 +77,6 @@ timeLeft = kothTimeSecs
 lastTimeLeft = 0
 firstLayer = 'Blue        Red\n'
 
-# Hot Pot logic
-bootTime = 0
-holdTime = 0
-gameTime = 0
-
 def main():
     global modeSelected
     global modeButtonClicked
