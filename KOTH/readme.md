@@ -1,7 +1,7 @@
 # KOTH
 
 ## Overview
-KOTH stands for King Of The Hill. The objective of this game is to "control" an objective for a period of time before your opponents can do the same. 
+KOTH stands for King Of The Hill. The objective of this game is to "control" an objective for a period of time before your opponents can do the same. This timer also has the "Death Clicker" game mode built in, and can swap from KOTH and Death Clicks using the "Mode" button.
 
 ## BOM
 To Make this, you will need:
