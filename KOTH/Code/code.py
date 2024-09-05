@@ -89,7 +89,7 @@ def main():
             KOTHLogic()
         
         if not modeButton.value:
-            if modeButtonClicked:
+            if modeButtonClicked or redActive or blueActive or numDeaths > 0:
                 continue
             redActive = False
             blueActive = False
