@@ -38,7 +38,7 @@ Reset Button: GP16
 
 ## Libraries Used/Credits
 
-This program uses Dean Halperts CircuityPython/LCD library.
+This program uses Dean Halperts CircuitPython/LCD library.
 
 https://github.com/dhalbert/CircuitPython_LCD
 
